@@ -32,8 +32,10 @@ public class Sam {
         for (int i = 0; i < z3.length; i++) {
             if (poz1 == z1.length){
                 z3[i] = z2[i-poz1];
+                poz2++;
             } else if (poz2 == z2.length){
                 z3[i] = z1[i - poz2];
+                poz1++;
             } else  if(z1[i - poz2] < z2[i - poz1]){
                 z3[i] = z1[i-poz2];
                 poz1++;
