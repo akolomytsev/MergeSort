@@ -1,4 +1,6 @@
-import java.io.*;
+package ru.rolomytsev;
+
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrays;
@@ -17,9 +19,6 @@ public class Main {
         for (int j : rezult) {
             System.out.print(j + " ");
         }
-
-
-        }
-
     }
+}
 

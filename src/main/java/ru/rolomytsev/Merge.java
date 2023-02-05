@@ -1,5 +1,7 @@
+package ru.rolomytsev;
+
 public class Merge {
-    public static int [] mergeArray(int[] intsA, int[] intsB) {
+    public static int[] mergeArray(int[] intsA, int[] intsB) {
 
         int[] arrayC = new int[intsA.length + intsB.length]; //
         int positionA = 0, positionB = 0; //
