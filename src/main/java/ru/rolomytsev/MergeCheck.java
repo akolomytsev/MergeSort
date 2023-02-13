@@ -1,6 +1,6 @@
 package ru.rolomytsev;
 
-public class Merge {
+public class MergeCheck {
     public static int[] mergeArray(int[] intsA, int[] intsB) {
 
         int[] arrayC = new int[intsA.length + intsB.length]; //
